@@ -1,0 +1,61 @@
+
+*{
+  margin:0 auto;
+  padding:0;
+  box-sizing: border-box;
+}
+ body{
+  background-color: blue;
+ }
+
+
+
+#quote_box{
+  background:white;
+margin:10rem auto;
+border-radius:5px;
+padding:3rem;
+width:40%;
+}
+
+#text{
+font-size:2rem;
+margin-bottom:1.5rem;
+}
+
+#author {
+
+  display:flex;
+justify-content:flex-end;
+font-size:1.5rem;
+}
+
+#buttons
+{
+  background:blue;
+color:white;
+border-radius:2px;
+font-weight:bold;
+font-size:.9rem;
+border:none;
+padding:.7rem 1rem;
+justify-content: space-between;
+}
+#new_quote{
+  background-color: white;
+  color: blue;
+  border: none;
+  font-size:.5rem ;
+  font-weight: bold;
+  padding:.5rem 1rem ;
+  outline:none ;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+new_quote:hover{
+  opacity:0.9;
+}
+button{
+  cursor:pointer;
+}
