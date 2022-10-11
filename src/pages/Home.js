@@ -1,9 +1,14 @@
-import Quotes from "../Components/QuotesItems";
+import Quotes from "./AddQuotes";
+import styled from "styled-components";
+
+const HomeContainer=styled.div``
 const Home = () => {
     return (
-        <homeContainer>
-        <Quotes/>
-    </homeContainer>)
+        <HomeContainer>
+            
+            <Quotes />
+        
+    </HomeContainer>)
 ;
 };
 export default Home;

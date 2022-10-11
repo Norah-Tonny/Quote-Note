@@ -1,18 +1,14 @@
 import styled from "styled-components";
-
-const LoginFormContainer=styled.div``
-
+import LoginItems from "../Components/LoginItems"
+import Nav from "../Components/Nav";
+const LoginFormContainer = styled.div``;
 
 const LoginForm = () => {
-    <LoginFormContainer>
-    <h1>Login</h1>
-        <input type="text" placeholder="Name"/>
-        <input type="text" placeholder="Contact"/>
-    <input type="email" placeholder="Email"/>
-        <input type="Password" placeholder="Password" />
-        <input type="password" placeholder="Confirm Password" />
-        <button>Submit</button>
+  return (<LoginFormContainer>
+    <Nav />
     
-    </LoginFormContainer>
-}
+  <LoginItems/>
+  </LoginFormContainer>
+  );
+};
 export default LoginForm;
